@@ -1,0 +1,14 @@
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Variáveis */
+    :root {
+        /* Fonte */
+        --manrope: "Manrope", sans-serif;
+        /* Cor */
+        --white: #FFFFFF;
+        --grey-200: #ECF2F8;
+        --grey-400: #9DAEC2;
+        --grey-500: #6E8098;
+        --grey-900: #48556A;
+    }

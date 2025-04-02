@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frontend Mentor | Article preview component</title>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/mobile.css">
+        <link rel="stylesheet" href="styles/tablet.css">
+        <link rel="stylesheet" href="styles/desktop.css">
+    </head>
+    <body>
+        <div class="conteudo">
+            <div class="img__principal">
+                <img src="/img/drawers.jpg" alt="Imagem de Canto Verde">
+            </div>
+            <div class="conteudo__artigo">
+                <h1 class="artigo__titulo">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+                <p class="artigo__paragrafo">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
+            </div>
+
+            <!-- Formatação Normal -->
+            <div class="conteudo__final">
+                <div class="final__inicio">
+                    <img class="final__img" src="/img/avatar-michelle.jpg" alt="Imagem da Michelle">
+                </div>
+                <div class="final__meio">
+                    <h2 class="final__nome">Michelle Appleton</h2>
+                    <p class="final__data">28 Jun 2020</p>
+                </div>
+                <div class="final__fim">
+                    <button class="share" onclick="btnN()">
+                        <img class="share__icone" src="/img/iconeShare.png" alt="Ícone do Share">
+                    </button>
+                </div>
+            </div>
+
+            <!-- Formatação Ativa - JavaScript -->
+            <div class="conteudo__finalA hideblk">
+                <div class="final__inicio-active">
+                    <p>S H A R E</p>
+                </div>
+                <div class="final__meio-active">
+                    <a href="https://www.facebook.com/?locale=pt_BR"><img src="/img/facebook.png" alt="Icone do Facebook"></a>
+                    <a href="https://x.com/?lang=pt"><img src="/img/x.png" alt="Icone do Twitter"></a>
+                    <a href="https://br.pinterest.com/"><img src="/img/pinterest.png" alt="Icone do Pinterest"></a>
+                </div>
+                <div class="final__fim-active">
+                    <button class="share-active" onclick="btnA()">
+                        <img class="share__icone-active" src="/img/iconeShareActive.png" alt="Ícone do Share">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

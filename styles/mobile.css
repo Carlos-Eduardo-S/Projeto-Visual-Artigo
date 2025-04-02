@@ -1,0 +1,120 @@
+@import url(/styles/variaveis.css);
+
+/* Estilização Mobile */
+
+@media screen and (max-width: 23.45rem) {
+    body {
+        background-color: var(--grey-200);
+        font-family: var(--manrope);
+        font-size: 1rem;
+    }
+
+    .conteudo {
+        margin: 5rem auto;
+        width: 20.438rem;
+        background-color: var(--white);
+        border-radius: 10px;
+    }
+
+    .img__principal img {
+        width: 20.438rem;
+        border-radius: .625rem .625rem 0 0;
+    }
+
+    .conteudo__artigo {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem 1.875rem 1.875rem 1.875rem;
+    }
+
+    .artigo__titulo {
+        color: var(--grey-900);
+        font-size: 1.25rem;
+        font-weight: 800;
+        line-height: 130%;
+    }
+
+    .artigo__paragrafo {
+        font-size: .813rem;
+        color: var(--grey-500);
+        line-height: 140%;
+        width: 16.563rem;
+    }
+
+    /* Estilização Normal - HTML e CSS */
+    .conteudo__final {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 1.125rem 1.875rem;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 0 0 .625rem .625rem;
+    }
+
+    .final__img {
+        width: 2rem;
+        border-radius: 50%;
+    }
+
+    .final__meio {
+        padding-left: 1rem;
+        padding-right: 1.79rem;
+        display: flex;
+        flex-direction: column;
+        gap: .4rem;
+    }
+
+    .final__nome {
+        font-size: .813rem;
+        color: var(--grey-900);
+        font-weight: 800;
+    }
+
+    .final__data {
+        font-size: .813rem;
+        color: var(--grey-400);
+    }
+
+    .share {
+        text-decoration: none;
+        border: none;
+        width: 2rem;
+        height: 2rem;
+        background-color: var(--grey-200);
+        border-radius: 50%;
+    }
+
+    /* Estilização Ativa - CSS e JavaScript */
+    .conteudo__finalA {
+        background-color: var(--grey-900);
+        color: var(--grey-400);
+        display: flex;
+        flex-direction: row;
+        padding: 1.125rem 1.875rem;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 0 0 .625rem .625rem;
+    }
+
+    .hideblk {
+        display: none;
+    }
+
+    .final__meio-active {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding-right: 2.3rem;
+    }
+
+    .share-active {
+        text-decoration: none;
+        border: none;
+        width: 2rem;
+        height: 2rem;
+        background-color: var(--grey-500);
+        border-radius: 50%;
+    }
+}
