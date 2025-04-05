@@ -2,7 +2,6 @@ let formN = document.querySelector('.conteudo__final');
 let formA = document.querySelector('.conteudo__finalA');
 
 function btnN() {
-    formN.style.display = 'none';
     formA.style.display = 'block';
     formA.style.display = 'flex';
 }

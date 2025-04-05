@@ -99,7 +99,10 @@
         padding: 1.125rem 1.875rem;
         align-items: center;
         gap: 1rem;
+        width: 16.670rem;
         border-radius: 0 0 .625rem .625rem;
+        position: absolute;
+        bottom: -1.85rem;
     }
 
     .hideblk {
