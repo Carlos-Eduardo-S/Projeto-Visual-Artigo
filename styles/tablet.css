@@ -1,5 +1,7 @@
 @import url(/styles/variaveis.css);
 
+/* Estilização Tablet */
+
 @media screen and (min-width: 23.50rem) and (max-width: 48rem) {
     body {
         background-color: var(--grey-200);
